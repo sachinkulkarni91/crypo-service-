@@ -4,7 +4,7 @@ MongoDB Atlas
 Nodemailer for sending emails.
 
 .env
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<database_name>?retryWrites=true&w=majority
+MONGODB_URI=""
 EMAIL=your-email@gmail.com
 PASS=your-email-password
 
