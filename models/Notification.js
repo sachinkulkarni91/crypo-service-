@@ -1,11 +1,11 @@
-const mongoose=require("mongoose")
+const mongoose = require("mongoose");
 
-const notificationSchema=new mongoose.Schema({
-    price:Number,
-    dailyPercentage:Number,
-    TradingVolume:Number,
-    email:String,
-    status:{type:String,default:"Pending"}
-})
+const NotificationSchema = new mongoose.Schema({
+  price: Number,
+  percentageChange: Number,
+  tradingVolume: Number,
+  email: String,
+  status: { type: String, default: "Pending" },
+});
 
-module.export =mongoose.model("Notification",notificationSchema)
+module.exports = mongoose.model("Notification", NotificationSchema);
