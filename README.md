@@ -12,7 +12,7 @@ PASS=your-email-password
 
 API links
 
-GET '/'
+GET '/' test api
 
 POST ' /api/notifications/send -- to send email notification
 
